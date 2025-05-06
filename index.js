@@ -10,6 +10,11 @@ const func2 = (x , y)=>{
     return x * y
 }
 
+function hello(){
+    return "HELLO iam a funciton "
+}
+
+console.log(hello())
 
 
 console.log(func(10 , 10))
