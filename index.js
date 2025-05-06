@@ -27,3 +27,4 @@ console.log(func(10, 10));
 console.log(func2(10, 10));
 
 console.log(tumTak());
+console.log("HELLo")
