@@ -14,6 +14,10 @@ function hello(){
     return "HELLO iam a funciton "
 }
 
+function bye(){
+    return "BYE this function is telling bye"
+}
+
 console.log(hello())
 
 
