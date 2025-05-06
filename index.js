@@ -1,25 +1,29 @@
 const hello = "HELLO WORLD";
 let num = 12;
 
+const func = (a, b) => {
+  return a + b;
+};
 
-const func = (a , b)=>{
-return a + b
+const func2 = (x, y) => {
+  return x * y;
+};
+
+function hello() {
+  return "HELLO iam a funciton ";
 }
 
-const func2 = (x , y)=>{
-    return x * y
+function bye() {
+  return "BYE this function is telling bye";
 }
 
-function hello(){
-    return "HELLO iam a funciton "
-}
+let tumTak = () => {
+  console.log("Meri har man mani bas tum tak");
+};
 
-function bye(){
-    return "BYE this function is telling bye"
-}
+console.log(hello());
 
-console.log(hello())
+console.log(func(10, 10));
+console.log(func2(10, 10));
 
-
-console.log(func(10 , 10))
-console.log(func2(10 , 10))
+console.log(tumTak());
