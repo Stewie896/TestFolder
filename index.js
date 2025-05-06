@@ -1,14 +1,13 @@
 const keno = "HELLO WORLD";
 let num = 12;
 
+const func = (a, b) => {
+  return a + b;
+};
 
-const func = (a , b)=>{
-return a + b
-}
-
-const func2 = (x , y)=>{
-    return x * y
-}
+const func2 = (x, y) => {
+  return x * y;
+};
 
 function hello(){
     return "HELLO iam a funciton "
